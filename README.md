@@ -22,6 +22,7 @@ And the protein at steady state (shown as colour bar below) might be high despit
 
 #### Including transcription and mRNA decay
 This complicates things a bit, because we are now looking at a set of coupled differential equations. First one is the equation for mRNA:
+
 ![differential equation mRNA](https://render.githubusercontent.com/render/math?math=%5Cfrac%7BdR%7D%7Bdt%7D%20%3D%20k_%7BTranscription%7D%20-%20k_%7BmRNADegradation%7D%5Ctimes%20R&mode=display)
 
 Followed by equations for protein:
