@@ -1,5 +1,9 @@
 # Protein-Expression-Dynamics
-Numerically simulating a protein expression system using first order differential equation from the paper [Global signatures of protein and mRNA expression levels ](https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC4089977/). The numerical analysis uses [`odeint`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.odeint.html) from `SciPy`.
+Numerically simulating a protein expression system using first order differential equation from the paper [Global signatures of protein and mRNA expression levels ](https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC4089977/). 
+
+![differential equation](https://render.githubusercontent.com/render/math?math=%5Cfrac%7BdP%7D%7Bdt%7D%20%3D%20k_%7BProteinProduction%7D%20-%20k_%7BProteinDegradation%7D%5Ctimes%20P&mode=display)
+
+The numerical analysis uses [`odeint`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.odeint.html) from `SciPy`.
 
 An obvious result is the increase of protein levels with the increase of translation rates.
 <img src="figs/protein_vs_translation_rates.png" alt="protein vs translation rates"/>
