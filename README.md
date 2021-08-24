@@ -1,5 +1,5 @@
 # Protein-Expression-Dynamics
-Numerically simulating a protein expression system using first order differential equation from the paper [Global signatures of protein and mRNA expression levels ](https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC4089977/). 
+Numerically simulating a protein expression system using first order differential equation from the papers [Global signatures of protein and mRNA expression levels ](https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC4089977/) and [The role of mRNA and protein stability in gene expression](https://pubmed.ncbi.nlm.nih.gov/2676679/). 
 
 ![differential equation](https://render.githubusercontent.com/render/math?math=%5Cfrac%7BdP%7D%7Bdt%7D%20%3D%20k_%7BProteinProduction%7D%20-%20k_%7BProteinDegradation%7D%5Ctimes%20P&mode=display)
 
@@ -33,6 +33,7 @@ where,
 
 ![protein production rate](https://render.githubusercontent.com/render/math?math=k_%7BProteinProduction%7D%20%3D%20k_%7BTranslation%7D%5Ctimes%20R&mode=display)
 
+These equations are eqn 3 and 1 from the paper [The role of mRNA and protein stability in gene expression](https://pubmed.ncbi.nlm.nih.gov/2676679/).
 
 Both mRNA and protein reach a steady state. 
 
