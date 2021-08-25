@@ -39,6 +39,6 @@ Both mRNA and protein reach a steady state.
 
 <img src="figs/decaying_mRNA_and_protein.png" alt="steady state mRNA and protein" />
 
-At steady state, the proportionality factor is changes for different translation rates, but the Spearman's correlation still is somewhat constant.
+At steady state, the proportionality factor changes for different translation rates, but the Spearman's correlation still is somewhat constant.
 
 <img src="figs/mRNA_and_protein_with_decay.png" alt="steady state protein and mRNA for different translation rates for a model with mRNA" />
